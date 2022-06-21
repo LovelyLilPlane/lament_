@@ -13,6 +13,5 @@ async def reload(ctx, ext):
     bot.reload_extension(F'func.{ext}')
     await ctx.send(F'{ext} reloaded.')
         
-tok = 'OTMzNzExNDYyMTY0MjM0Mjcw.GVaFBX.S-7OHx2v-UpfqaNUGxiWkozv3ch-iZffIEnXjM'
 if __name__ == "__main__": 
     bot.run(tok)
